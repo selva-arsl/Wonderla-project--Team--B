@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.overall{
+    width: 100%;
+}
+.parkcontent0 h1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    animation-name:logo;
+    z-index: 0;
+    animation-duration:2s;
+    /* animation-timing-function:ease; */
+}
+@keyframes logo{
+    from{
+        top:px;
+    }
+    to{
+        bottom:50px;
+    }
+}
+.park ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    background-color: #143665;
+}
+.park ul li{
+    color: #ffd336;
+    padding-left: 30px;
+
+}
+ .park ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.park ul li::after{
+    content: ' ';
+    height: 3px;
+    width: 0%;
+    background: #ffd336;
+    position: absolute;
+    bottom:-2px;
+    animation: line;
+    transition:0.5s ;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+.parkcontent{
+    padding: 0px 50px 0px 50px;
+}
+.parkcontent1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parkcontent1 img{
+    width: 50%;
+}
+.innercontent{
+    width:50%;
+    justify-content: center;
+    
+}
+.parkcontent2{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parkcontent2 img{
+    width: 50%;
+}

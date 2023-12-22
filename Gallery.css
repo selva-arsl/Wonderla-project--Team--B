@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Galleryoverall{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.gallery{
+    width: 300px;
+    height: 200px;
+    
+}
+img{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+}
+.gallery:hover img{
+    width:320px;
+    height: 220px;
+}
