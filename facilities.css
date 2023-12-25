@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-wrap: wrap;
+           height: 100vh;
+         }
+.card{
+      position: relative;
+      height: 300px;
+      margin: 50px;
+      overflow: hidden;
+    }
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}   
+.info{
+       height: 70px;
+       width: 300px;
+       padding: 6px;
+       position: absolute;
+       bottom: 0px;
+       background-color: rgba(50, 47, 47, 0.574);
+       color: rgb(231, 220, 220);
+       text-align: center;
+       transition: .5s;
+      
+      }
+   h1{
+    font-size:25px;
+    font-weight: bold;
+   }   
+     p{
+         visibility: hidden;
+         opacity: 0;
+         font-weight: bold;
+         line-height: 20px;
+         padding-top: 10px;
+      }
+       
+    
+ .card:hover{
+          cursor: pointer; 
+         } 
+     
+ .card:hover .info{
+             height: 200px;
+             bottom:50px;
+             background-color: rgba(0, 0, 0, 0.916);
+            } 
+            
+ .card:hover p{
+              visibility: visible;
+              opacity: 1;
+              }               
+
+                                      /* card2 */
+         .card2{
+                position: relative;
+                height: 300px;
+                margin: 50px;
+                overflow: hidden;
+              }
+         
+          .info2{
+                 height: 70px;
+                 width: 300px;
+                 padding: 6px;
+                 position: absolute;
+                 bottom: 0px;
+                 background-color: rgba(21, 19, 19, 0.649);
+                 color: white;
+                 text-align: center;
+                 transition: .5s;
+                }
+               p{
+                   visibility: hidden;
+                   opacity: 0;
+                }
+                 
+              
+           .card2:hover{
+                    cursor: pointer; 
+                   } 
+               
+           .card2:hover .info2{
+                       height: 200px;
+                       bottom:50px;
+                       background-color: rgba(0, 0, 0, 0.749);
+                      } 
+                      
+           .card2:hover p{
+                        visibility: visible;
+                        opacity: 1;
+                        }  
+                                          /* card3 */
+                                      
+         .card3{
+               position: relative;
+               height: 300px;
+              margin: 50px;
+              overflow: hidden;
+             }
+                
+   .info3{
+         height: 70px;
+             width: 300px;
+             padding: 6px;
+             position: absolute;
+              bottom: 0px;
+             background-color: rgba(19, 18, 18, 0.826);
+              color: white;
+              text-align: center;
+             transition: .5s;
+            }
+       p{
+          visibility: hidden;
+          opacity: 0;
+           }
+                           
+                        
+      .card3:hover{
+                        cursor: pointer; 
+                        } 
+                         
+ .card3:hover .info3{
+                   height: 200px;
+                 bottom:50px;
+                  background-color: rgba(0, 0, 0, 0.799);
+                  }
+  .card3:hover p{
+              visibility: visible;
+              opacity: 1;
+           }  
+                                  /* card4 */
+.card4{
+         position: relative;
+          height: 300px;
+       margin: 50px;
+        overflow: hidden;
+           }
+                        
+  .info4{
+           height: 70px;
+         width: 300px;
+          padding: 6px;
+            position: absolute;
+           bottom: 0px;
+            background-color: rgba(14, 13, 13, 0.827);
+              color: white;
+             text-align: center;
+             transition: .5s;
+           }
+   p{
+    visibility: hidden;
+      opacity: 0;
+     }
+                                     
+ .card4:hover{
+             cursor: pointer; 
+             } 
+                                   
+ .card4:hover .info4{
+                     height: 200px;
+                     bottom:50px;
+                    background-color: rgba(0, 0, 0, 0.903);
+                    } 
+                                          
+  .card4:hover p{
+                  visibility: visible;
+                  opacity: 1;
+                }  
+      /* h2{
+         text-align: center;
+      }
+                                                        */
