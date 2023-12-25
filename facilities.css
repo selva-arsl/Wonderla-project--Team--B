@@ -38,7 +38,7 @@ img{
     font-size:25px;
     font-weight: bold;
    }   
-     p{
+     .detail{
          visibility: hidden;
          opacity: 0;
          font-weight: bold;
@@ -57,10 +57,10 @@ img{
              background-color: rgba(0, 0, 0, 0.916);
             } 
             
- .card:hover p{
-              visibility: visible;
-              opacity: 1;
-              }               
+ .card:hover .detail{
+                 visibility: visible;
+                 opacity: 1;
+                 }               
 
                                       /* card2 */
          .card2{
@@ -81,10 +81,10 @@ img{
                  text-align: center;
                  transition: .5s;
                 }
-               p{
+            .detail{
                    visibility: hidden;
                    opacity: 0;
-                }
+                   }
                  
               
            .card2:hover{
@@ -97,7 +97,7 @@ img{
                        background-color: rgba(0, 0, 0, 0.749);
                       } 
                       
-           .card2:hover p{
+           .card2:hover  .detail{
                         visibility: visible;
                         opacity: 1;
                         }  
@@ -111,7 +111,7 @@ img{
              }
                 
    .info3{
-         height: 70px;
+            height: 70px;
              width: 300px;
              padding: 6px;
              position: absolute;
@@ -121,7 +121,7 @@ img{
               text-align: center;
              transition: .5s;
             }
-       p{
+   .detail{
           visibility: hidden;
           opacity: 0;
            }
@@ -136,7 +136,7 @@ img{
                  bottom:50px;
                   background-color: rgba(0, 0, 0, 0.799);
                   }
-  .card3:hover p{
+  .card3:hover  .detail{
               visibility: visible;
               opacity: 1;
            }  
@@ -159,10 +159,10 @@ img{
              text-align: center;
              transition: .5s;
            }
-   p{
-    visibility: hidden;
-      opacity: 0;
-     }
+           .detail{
+                 visibility: hidden;
+               opacity: 0;
+               }
                                      
  .card4:hover{
              cursor: pointer; 
@@ -174,11 +174,48 @@ img{
                     background-color: rgba(0, 0, 0, 0.903);
                     } 
                                           
-  .card4:hover p{
+  .card4:hover  .detail{
                   visibility: visible;
                   opacity: 1;
                 }  
-      /* h2{
+       h2{
          text-align: center;
-      }
-                                                        */
+         }
+           
+  .ezpaydetails{
+             padding : 0% 10%;
+            font-size: 20px;
+            display: inline;
+            line-height: 30px;
+         }
+   .ezpayfacility p{
+                 padding-top: 20px;
+                 font-size: 20px; 
+                 line-height: 10px;
+               }   
+ .ezpayfacility   ol{
+                font-size: 20px; 
+               line-height: 30px;
+               }  
+     .note{
+            padding-top:30px; 
+             font-size: 20px; 
+            line-height: 30px;   
+            }          
+    span{
+         font-weight: bold;
+        }    
+button{
+       margin-top: 150px;
+       margin-left: 200px;
+       padding: 10px; 
+       width: 160px;
+       font-size: 25px;
+       font-weight: bold;
+       border-radius:8px ;
+       border:1px solid black;
+      }   
+button:hover{
+            background-color: rgba(0, 0, 255, 0.727);
+            color: rgb(242, 255, 0); 
+            }                            
