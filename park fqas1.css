@@ -1,12 +1,11 @@
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
 }
-.overall{
+.parkoverall1{
     width: 100%;
 }
-
 .park ul{
     width: 100%;
     display: flex;
@@ -39,7 +38,7 @@
     width: 100%;
 
 }
-.parkcontent0 h1{
+.parkcontent01 h1{
     width: 100%;
     height: 100px;
     display: flex;
@@ -59,66 +58,38 @@
         bottom:50px;
     }
 }
-.parkcontent{
-    padding: 0px 50px 0px 50px;
-    display: grid;
+.parkcontent01 ul{
+   display: grid;
+   justify-content: center;
+   align-items: center; 
+   padding-left:300px;
+   margin-right: 100px; 
+   line-height: 30px;
+   
 }
-.parkoverall button{
+.parkcontent01 ul li{
+    font-size: 20px ;
+}
+.pic{
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.pic img{
+    width: 48%;
+    height: 500px;
+}
+.parkoverall1 button{
     width: 150px;
     padding: 5px 10px;
     font-weight: bold;
     font-size: 15px;
     background: #143665;
     color: #ffd336;
-    margin-top: 50px;
     margin-right: 40px;
     float: right;
     
 
-}
-.parkcontent1{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.innercontent h1{
-    text-align: center;
-    padding-bottom: 40px;
-}
-.innercontent1 i{
-    color: green;
-}
-.innercontent2 i{
-    color: red;
-}
-.parkcontent1 img{
-    width: 50%;
-}
-.innercontent{
-    width:50%;
-    justify-content: center;
-    
-}
-.parkcontent2{
-    width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.parkcontent2 img{
-    width: 50%;
-}
-.para{
-    font-size: 20px;
-    line-height: 28px;
-}
-.parkcontent0 h3{
-    padding-top: 40px;
-}
-.parkcontent3 p{
-padding-top: 40px;
-}
-.parkcontent3 h3{
-    text-align: center;
 }
