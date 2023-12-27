@@ -1,8 +1,125 @@
-/*Universal selector*/
+/*------------------------Universal selector---------------------------*/
 *{
     margin:0px;
     padding:0px;
     box-sizing:border-box;
 }
 
-/**/
+/*------------------------Root css root functions----------------- */
+:root{
+    --darkblue:#0A2254;
+    --cblack:#000000;
+    --yellow:#F8DB0B;
+    --cwhite:rgb(255,255,255);
+}
+
+
+/*-------------------------Wonderla Kochi------------------------------*/
+
+.second{
+    width:100%;
+    min-height: 100vh;
+    background-color:var(--cwhite);
+    text-align:center;
+}
+
+.part h1:nth-child(1){
+    color:var(--cblack);
+    font-size:50px;
+    padding:55px;
+
+}
+
+.part h3:nth-child(2){
+    color:var(--darkblue);
+    font-size:35px;
+}
+
+.part p:nth-child(3){
+    font-weight:bold;
+    font-size:20px;
+    letter-spacing:-3px;
+    padding-bottom:20px;
+}
+
+.part p:nth-child(4),.part p:nth-child(5)
+{
+    font-size:23px;
+    padding:10px 50px;
+}
+
+.four-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+  
+}
+
+.box1,.box3
+{
+
+    color:var(--cwhite);
+    background-color:var(--darkblue);
+    padding:25px 30px;
+}
+.box2,.box4
+{
+    color:var(--darkblue);
+    background-color:var(--yellow);
+    padding:25px 30px;
+}
+
+.fa-ticket,.fa-clock,.fa-map-location-dot,.fa-circle-question{
+    font-size:35px;
+    padding:10px;
+}
+.box{
+    width:200px;
+    min-height:150px;
+    border:3px solid var(--cwhite);
+}
+
+.box:hover{
+    border:3px solid var(--darkblue);
+    background-color:var(--cwhite);
+    color:var(--darkblue);
+}
+
+
+/*-----------------A day well spent!-------------------*/
+.spent{
+    width:100%;
+    min-height:125vh;
+    background-color: skyblue;
+    background-image: url("./images/wonderla-images.avif");
+    background-repeat:no-repeat;    
+    background-size:cover;
+    position:relative;
+
+}
+.spent-box{
+   width:25%;
+   background-color: rgba(255, 255, 255,0.8);
+   padding:60px 50px;
+   position:absolute;
+   left:150px;
+   top:150px;
+}
+
+.spent-box h3:nth-child(1){
+  color:var(--darkblue);
+  text-align:center;
+  font-size:35px;
+}
+
+.spent-box p:nth-child(2){
+    text-align:center;
+    font-weight:bold;
+    letter-spacing: -3px;
+}
+.spent-box p:nth-child(3){
+    font-size:18px;
+    line-height: 33px;
+    
+}
