@@ -148,7 +148,7 @@
 .tips-overall{
     width:100%;
     min-height: 100vh;
-    background-color:skyblue;
+    background-color:var(--cwhite);
 }
 .tips-overall h1:nth-child(1){
     color:var(--darkblue);
@@ -197,7 +197,7 @@
     color:var(--darkblue);
 }
 .boxs p{
-    font-size:18px;
+    font-size:20px;
     color:var(--cblack);
 }
 
@@ -207,7 +207,19 @@
     padding:50px;
 }
 
-.button{
-    color:var(--yellow) !important;
-    background-color: var(--darkblue) !important;
+#know{
+  color:var(--yellow);
+  background-color: var(--darkblue);
+  padding:12px 30px;
+  font-weight:bold;
+  
+
 }
+
+#know:hover{
+    border:3px solid var(--darkblue);
+    background-color:white;
+    color:var(--darkblue);
+}
+
+   
