@@ -100,7 +100,7 @@
 }
 .spent-box{
    width:25%;
-   background-color: rgba(255, 255, 255,0.8);
+   background-color: rgba(255, 255, 255,0.9);
    padding:60px 50px;
    position:absolute;
    left:150px;
@@ -122,4 +122,92 @@
     font-size:18px;
     line-height: 33px;
     
+}
+
+
+/*-----------------video content--------------------*/
+.video-overall{
+    width:100%;
+    min-height: 100vh;
+    background-color:var(--yellow);
+    display:grid;
+    justify-items: center;
+    align-items: center;
+    clip-path: polygon(0 80px,100% 0,100% calc(100% - 80px),0% 100%);
+    
+}
+
+.video-overall video{
+    width:800px;
+    min-height: 500px;
+    border-radius:100px 100px 50px 50px;
+}
+
+
+/*------------------wonderla tips--------------------*/
+.tips-overall{
+    width:100%;
+    min-height: 100vh;
+    background-color:skyblue;
+}
+.tips-overall h1:nth-child(1){
+    color:var(--darkblue);
+    text-align:center;
+    padding-top:50px;
+
+}
+.tips-overall p:nth-child(2){
+    font-weight: bold;
+    font-size:20px;
+    text-align:center;
+    letter-spacing:-3px;
+    padding-bottom:40px;
+}
+
+
+.box-overall{
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+  text-align: center;
+  
+
+
+}
+.boxs{
+    padding:40px 30px;
+    background-color: var(--cwhite);
+}
+
+.box-overall .boxs{
+    width:25%;
+    min-height:300px;
+    
+    
+}
+
+.fa-ticket-simple,.fa-cart-shopping,.fa-lock{
+    font-size:50px;
+    color:var(--darkblue);
+}
+
+.boxs h3{
+    font-size:25px;
+    padding:15px 20px;
+    color:var(--darkblue);
+}
+.boxs p{
+    font-size:18px;
+    color:var(--cblack);
+}
+
+.offer{
+    text-align:center;
+    font-size:23px;
+    padding:50px;
+}
+
+.button{
+    color:var(--yellow) !important;
+    background-color: var(--darkblue) !important;
 }
