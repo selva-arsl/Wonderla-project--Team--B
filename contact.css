@@ -1,0 +1,33 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.full{
+    width: 100%;
+    min-height: 500px;
+    background-color: blueviolet;
+
+}
+.picture{
+    width: 50%;
+    min-height: 500px;
+    background-image: url(./wonder.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.picture img{
+    width: 40%;
+    height: 500px;
+    z-index: 1;
+}
+  
+  
