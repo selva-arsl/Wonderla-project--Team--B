@@ -6,6 +6,50 @@
 .overall{
     width: 100%;
 }
+
+.parknavbar{
+    width: 100%;
+    padding: 15px 5px;
+    display: flex;
+    background-color:#143665;
+    color: #ffd336;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+    top: 20px;
+    box-shadow: 5px 5px 5px gray;
+    z-index: 999;
+}
+.parknavbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 15px;
+    position: relative;
+
+}
+.parknavbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffd336;
+}
+
+.parknavbar ul li::after{
+    content: ' ';
+    height: 3px;
+    width: 0%;
+    background-color: #ffd336;
+    position: absolute;
+    left: 0;
+    bottom:-2px;
+    animation: line;
+    transition:0.5s ;
+
+}
+.parknavbar ul li:hover::after{
+    width: 100%;
+
+}
 .parkcontent0 h1{
     width: 100%;
     height: 100px;
@@ -26,46 +70,39 @@
         bottom:50px;
     }
 }
-.park ul{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 80px;
-    background-color: #143665;
-}
-.park ul li{
-    color: #ffd336;
-    padding-left: 30px;
-
-}
- .park ul li a{
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.park ul li::after{
-    content: ' ';
-    height: 3px;
-    width: 0%;
-    background: #ffd336;
-    position: absolute;
-    bottom:-2px;
-    animation: line;
-    transition:0.5s ;
-
-}
-.navbar ul li:hover::after{
-    width: 100%;
-
-}
 .parkcontent{
     padding: 0px 50px 0px 50px;
+    display: grid;
+}
+.parkoverall button{
+    width: 150px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    background: #143665;
+    color: #ffd336;
+    margin-top: 50px;
+    margin-right: 40px;
+    float: right;
+    
+
 }
 .parkcontent1{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+.innercontent h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.innercontent1 i{
+    color: green;
+}
+.innercontent2 i{
+    color: red;
 }
 .parkcontent1 img{
     width: 50%;
@@ -80,7 +117,51 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .parkcontent2 img{
     width: 50%;
+}
+.para{
+    font-size: 20px;
+    line-height: 28px;
+}
+.parkcontent0 h3{
+    padding-top: 40px;
+}
+.parkcontent3 p{
+padding-top: 40px;
+}
+.parkcontent3 h3{
+    text-align: center;
+}
+@media screen and (min-width:300px) and (max-width:800px) {
+    .parkcontent1{
+       
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit minmax(300px,fr));
+    }
+    .parkcontent1 img{
+        width: 100%;
+    }
+    .parkcontent1 .innercontent{
+        width: 100%;
+        padding: 30px 0px 30px 0px;
+    }
+    .parkcontent2{
+       
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit minmax(300px,fr));
+    }
+    .parkcontent2 img{
+        width: 100%;
+    }
+    .parkcontent2 .innercontent{
+        width: 100%;
+        padding: 30px 0px 30px 0px;
+    }
 }
