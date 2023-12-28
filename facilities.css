@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-wrap: wrap;
+           height: 100vh;
+         }
+.card{
+      position: relative;
+      height: 300px;
+      margin: 50px;
+      overflow: hidden;
+    }
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}   
+.info{
+       height: 70px;
+       width: 300px;
+       padding: 6px;
+       position: absolute;
+       bottom: 0px;
+       background-color: rgba(50, 47, 47, 0.574);
+       color: rgb(231, 220, 220);
+       text-align: center;
+       transition: .5s;
+      
+      }
+   h1{
+    font-size:25px;
+    font-weight: bold;
+   }   
+     .detail{
+         visibility: hidden;
+         opacity: 0;
+         font-weight: bold;
+         line-height: 20px;
+         padding-top: 10px;
+      }
+       
+    
+ .card:hover{
+          cursor: pointer; 
+         } 
+     
+ .card:hover .info{
+             height: 200px;
+             bottom:50px;
+             background-color: rgba(0, 0, 0, 0.916);
+            } 
+            
+ .card:hover .detail{
+                 visibility: visible;
+                 opacity: 1;
+                 }               
+
+                                      /* card2 */
+         .card2{
+                position: relative;
+                height: 300px;
+                margin: 50px;
+                overflow: hidden;
+              }
+         
+          .info2{
+                 height: 70px;
+                 width: 300px;
+                 padding: 6px;
+                 position: absolute;
+                 bottom: 0px;
+                 background-color: rgba(21, 19, 19, 0.649);
+                 color: white;
+                 text-align: center;
+                 transition: .5s;
+                }
+            .detail{
+                   visibility: hidden;
+                   opacity: 0;
+                   }
+                 
+              
+           .card2:hover{
+                    cursor: pointer; 
+                   } 
+               
+           .card2:hover .info2{
+                       height: 200px;
+                       bottom:50px;
+                       background-color: rgba(0, 0, 0, 0.749);
+                      } 
+                      
+           .card2:hover  .detail{
+                        visibility: visible;
+                        opacity: 1;
+                        }  
+                                          /* card3 */
+                                      
+         .card3{
+               position: relative;
+               height: 300px;
+              margin: 50px;
+              overflow: hidden;
+             }
+                
+   .info3{
+            height: 70px;
+             width: 300px;
+             padding: 6px;
+             position: absolute;
+              bottom: 0px;
+             background-color: rgba(19, 18, 18, 0.826);
+              color: white;
+              text-align: center;
+             transition: .5s;
+            }
+   .detail{
+          visibility: hidden;
+          opacity: 0;
+           }
+                           
+                        
+      .card3:hover{
+                        cursor: pointer; 
+                        } 
+                         
+ .card3:hover .info3{
+                   height: 200px;
+                 bottom:50px;
+                  background-color: rgba(0, 0, 0, 0.799);
+                  }
+  .card3:hover  .detail{
+              visibility: visible;
+              opacity: 1;
+           }  
+                                  /* card4 */
+.card4{
+         position: relative;
+          height: 300px;
+       margin: 50px;
+        overflow: hidden;
+           }
+                        
+  .info4{
+           height: 70px;
+         width: 300px;
+          padding: 6px;
+            position: absolute;
+           bottom: 0px;
+            background-color: rgba(14, 13, 13, 0.827);
+              color: white;
+             text-align: center;
+             transition: .5s;
+           }
+           .detail{
+                 visibility: hidden;
+               opacity: 0;
+               }
+                                     
+ .card4:hover{
+             cursor: pointer; 
+             } 
+                                   
+ .card4:hover .info4{
+                     height: 200px;
+                     bottom:50px;
+                    background-color: rgba(0, 0, 0, 0.903);
+                    } 
+                                          
+  .card4:hover  .detail{
+                  visibility: visible;
+                  opacity: 1;
+                }  
+       h2{
+         text-align: center;
+         }
+           
+  .ezpaydetails{
+             padding : 0% 10%;
+            font-size: 20px;
+            display: inline;
+            line-height: 30px;
+         }
+  .ezpayfacility {
+                width: 800px;
+                }       
+   .ezpayfacility p{
+                 padding-top: 20px;
+                 font-size: 20px; 
+                 line-height: 10px;
+               }   
+ .ezpayfacility   ol{
+                font-size: 20px; 
+               line-height: 30px;
+               }  
+     .note{
+            padding-top:30px; 
+             font-size: 20px; 
+            line-height: 30px;   
+            }          
+    span{
+         font-weight: bold;
+        }    
+button{
+       margin-top: 150px;
+       margin-left: 200px;
+       padding: 10px; 
+       width: 160px;
+       font-size: 25px;
+       font-weight: bold;
+       border-radius:8px ;
+       border:1px solid black;
+      }   
+button:hover{
+            background-color: rgba(0, 0, 255, 0.727);
+            color: rgb(242, 255, 0); 
+            }                          
+                           /****mobile***  */
+  @media screen  and (max-width:350px){
+                            .info{
+                                  width: 230px;
+                                  }
+                      
+                            .info2{
+                                  width: 230px;
+                                  }
+                           .info3{
+                                 width: 230px;
+                                }
+                         .info4{
+                              width: 230px;
+                              } 
+                   .ezpayfacility {
+                                    width: 300px; 
+                                     }   
+                
+                     }       
+     @media screen  and (min-width:350px) and (max-width:420px){
+                       .info{
+                            width: 280px;
+                            }
+                
+                      .info2{
+                            width: 280px;
+                            }
+                     .info3{
+                           width: 280px;
+                          }
+                   .info4{
+                         width: 280px;
+                        }  
+                 .ezpayfacility {
+                               width: 300px; 
+                              }   
+                
+                
+                }            
+   @media screen  and (min-width:500px) and (max-width:800px){
+                      
+                          .ezpay img{
+                                     width: 500px;
+                                      }
+                      .ezpayfacility {
+                                     width: 600px;   
+                                       }   
+                                   
+                                   
+                                       
+                }                       
