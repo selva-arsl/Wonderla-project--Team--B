@@ -145,6 +145,7 @@
 
 
 /*------------------wonderla tips--------------------*/
+
 .tips-overall{
     width:100%;
     min-height: 100vh;
@@ -224,4 +225,50 @@
     color:var(--darkblue);
 }
 
+
+/*------------------smooth ride!--------------------*/
    
+.smooth-overall{
+    width:100%;
+    min-height:525px;
+    background-color: var(--darkblue);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.waterride{
+    width:50%;
+    min-height:525px;
+}
+.waterride img{
+    width:100%;
+    min-height:525px;
+}
+
+.rightside-content
+{
+    width:50%;
+    height:525px;
+    color:var(--cwhite); 
+    padding:100px; 
+    
+}
+
+.rightside-content h3{
+    font-size:40px;
+}
+.rightside-content p:nth-child(2){
+    font-size:25px;
+    letter-spacing: -5px;
+}
+
+.rightside-content ul{
+    padding-left:60px;
+}
+
+.rightside-content ul li{
+    font-size:25px;
+    line-height:40px;   
+}
