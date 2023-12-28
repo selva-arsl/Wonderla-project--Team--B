@@ -207,16 +207,18 @@
     padding:50px;
 }
 
-#know{
+.know button{
   color:var(--yellow);
   background-color: var(--darkblue);
   padding:12px 30px;
   font-weight:bold;
-  
-
+}
+.know{
+    display: grid;
+    place-items: center;
 }
 
-#know:hover{
+.know button:hover{
     border:3px solid var(--darkblue);
     background-color:white;
     color:var(--darkblue);
