@@ -11,6 +11,12 @@
     --cblack:#000000;
     --yellow:#F8DB0B;
     --cwhite:rgb(255,255,255);
+    --fb:#1877F2;
+    --twit:#1DA1F2;
+    --pin:#c8232c;
+    --inst:#F70181;
+    --yout:#FF0000;
+    --flig:#0d9855;
 }
 
 
@@ -384,27 +390,27 @@
    }
 
    .fa-facebook-f:hover{
-    background-color:#1877F2;
+    background-color:var(--fb);
    }
 
    .fa-twitter:hover{
-    background-color:#1DA1F2;
+    background-color:var(--twit);
    }
 
    .fa-pinterest:hover{
-    background-color:#c8232c;
+    background-color:var(--pin);
    }
 
    .fa-instagram:hover{
-    background-color:#F70181;
+    background-color:var(--inst);
    }
 
    .fa-youtube:hover{
-    background-color:#FF0000;
+    background-color:var(--yout);
    }
 
    .fa-plane-departure:hover{
-    background-color:#34E0A1;
+    background-color:var(--flig);
    }
    
    .line{
