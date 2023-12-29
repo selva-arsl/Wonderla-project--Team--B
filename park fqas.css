@@ -75,8 +75,8 @@
     display: grid;
 }
 .parkoverall button{
-    width: 150px;
-    padding: 5px 10px;
+    width: 170px;
+    padding: 12px 20px;
     font-weight: bold;
     font-size: 15px;
     background: #143665;
@@ -84,8 +84,15 @@
     margin-top: 50px;
     margin-right: 40px;
     float: right;
+    transition: all 1.5s;
     
 
+}
+.parkoverall button:hover{
+    background-color: aliceblue;
+    color: #143665;
+    border: 2px solid #143665;
+    
 }
 .parkcontent1{
     width: 100%;
