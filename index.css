@@ -11,6 +11,12 @@
     --cblack:#000000;
     --yellow:#F8DB0B;
     --cwhite:rgb(255,255,255);
+    --fb:#1877F2;
+    --twit:#1DA1F2;
+    --pin:#c8232c;
+    --inst:#F70181;
+    --yout:#FF0000;
+    --flig:#0d9855;
 }
 
 
@@ -145,6 +151,7 @@
 
 
 /*------------------wonderla tips--------------------*/
+
 .tips-overall{
     width:100%;
     min-height: 100vh;
@@ -224,4 +231,191 @@
     color:var(--darkblue);
 }
 
+
+/*------------------smooth ride!--------------------*/
    
+.smooth-overall{
+    width:100%;
+    min-height:525px;
+    background-color: var(--darkblue);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.waterride{
+    width:50%;
+    min-height:525px;
+}
+.waterride img{
+    width:100%;
+    min-height:525px;
+    
+}
+
+.rightside-content
+{
+    width:50%;
+    height:525px;
+    color:var(--cwhite); 
+    padding:100px; 
+    
+}
+
+.rightside-content h3{
+    font-size:40px;
+}
+.rightside-content p:nth-child(2){
+    font-size:25px;
+    font-weight:bold;
+    letter-spacing: -5px;
+}
+
+.rightside-content ul{
+    padding-left:60px;
+}
+
+.rightside-content ul li{
+    font-size:25px;
+    line-height:40px;   
+}
+
+
+/*------------------optimal experience!--------------------*/
+   
+.optimal-overall{
+    width:100%;
+    min-height:525px;
+    background-color: var(--yellow);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.leftside-content
+{
+    width:50%;
+    height:525px;
+    color:var(--darkblue);
+    padding:100px 70px; 
+}
+
+.leftside-content h3{
+    font-size:40px;
+}
+.leftside-content p:nth-child(2){
+    font-size:25px;
+    font-weight:bold;
+    letter-spacing: -5px;
+}
+.leftside-content p:nth-child(3){
+    font-size:25px;
+    padding-bottom:20px;
+}
+
+.more button{
+    color:var(--yellow);
+    background-color: var(--darkblue);
+    padding:12px 30px;
+    font-weight:bold;
+  }
+  
+  .more button:hover{
+      border:3px solid var(--darkblue);
+      background-color:white;
+      color:var(--darkblue);
+  }
+  
+
+  .waterride{
+    width:50%;
+    min-height:525px;
+    }
+  .waterride img{
+    width:100%;
+    min-height:525px;
+   }
+
+   /*-----------------------Footer area----------------------------*/
+
+   footer{
+    width:100%;
+    height:100vh;
+    color:var(--cwhite);
+    background-color:var(--darkblue);
+    text-align:center;
+   }
+
+   footer h3:nth-child(1){
+    padding-top:50px;
+
+   }
+   footer h3:nth-child(2){
+    padding:10px 0px 20px;
+   }
+
+   footer .contents{
+    text-align:center;
+   }
+
+   .fa-envelopes-bulk,.fa-envelope-open-text,.fa-square-phone-flip,.fa-square-phone-flip{
+    font-size:30px;
+    padding-right:20px;
+    padding-left:50px;
+   }
+
+   span{
+    font-size:20px;
+    
+   }
+
+   footer h3:nth-child(4){
+    padding:50px 0px 20px;
+   }
+
+   .fa-facebook-f,.fa-twitter,.fa-pinterest,.fa-instagram,.fa-youtube,.fa-plane-departure{
+    font-size:35px;
+    color:var(--darkblue);
+    background-color:var(--cwhite);
+    width:60px;
+    height:60px;
+    padding:10px;
+
+   }
+
+   .fa-facebook-f:hover,.fa-twitter:hover,.fa-pinterest:hover,.fa-instagram:hover,.fa-youtube:hover,.fa-plane-departure:hover{
+    color:var(--cwhite);
+   }
+
+   .fa-facebook-f:hover{
+    background-color:var(--fb);
+   }
+
+   .fa-twitter:hover{
+    background-color:var(--twit);
+   }
+
+   .fa-pinterest:hover{
+    background-color:var(--pin);
+   }
+
+   .fa-instagram:hover{
+    background-color:var(--inst);
+   }
+
+   .fa-youtube:hover{
+    background-color:var(--yout);
+   }
+
+   .fa-plane-departure:hover{
+    background-color:var(--flig);
+   }
+   
+   .line{
+    font-size:30px;
+    font-weight:bold;
+    letter-spacing:-5px;
+    padding:50px 0px 0px;
+   }
