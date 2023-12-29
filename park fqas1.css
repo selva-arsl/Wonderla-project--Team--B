@@ -16,7 +16,7 @@
         color: #ffd336;
         justify-content: center;
         align-items: center;
-        /* position: fixed; */
+        position: fixed;
         top: 20px;
         box-shadow: 5px 5px 5px gray;
         z-index: 999;
@@ -90,14 +90,12 @@
     justify-content: center;
     align-items: center;
     padding: 50px;
-    gap: 50px;
-    /* grid-template-columns: auto auto; */
+    gap: 33px;
     flex-wrap: wrap;
 }
 .pic img{
     width: 48%;
-    min-height: 500px;
-    /* object-fit: cover; */
+    height: 500px;
 }
 .parkoverall1 button{
     width: 150px;
@@ -116,19 +114,10 @@
     color: #143665;
     border: 2px solid #143665;
 }
-@media screen and (min-width:320px) and (max-width:1337px){
-    /* .pic{
-        width: 100%;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        padding: 50px;
-        gap: 50px;
-        grid-template-columns: auto;
-    } */
+@media screen and (min-width:320px) and (max-width:924px){
     .pic img{
         width:100%;
-        height: 400px;
+        height: 350px;
     }
     .parkcontent01 ul{
         display: grid;
