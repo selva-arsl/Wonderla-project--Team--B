@@ -437,7 +437,7 @@
     margin:0 5px;
 }
 
-.fa-instagram,.fa-facebook{
+/* .fa-instagram,.fa-facebook{
     font-size:20px !important;
     
 }
@@ -447,7 +447,7 @@
 }
 .fa-facebook{
     color:blue;
-}
+} */
 
 .card:hover .card-inner{
     transform:rotateY(180deg);
