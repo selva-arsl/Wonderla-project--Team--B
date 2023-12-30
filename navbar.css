@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.navbar
+{
+    margin-left:20px;
+    width:100%;
+    display: flex;
+    gap:20px;
+
+}
+.navbar img{
+    height:100px;
+    width:200px;
+    cursor:pointer;
+    margin-right:40px;
+}
+.navbar button
+{
+    border:none;
+    cursor:pointer;
+    background-color:unset;
+    font-weight:800;
+}
+
+.navbarbooknow
+{
+    
+    background-color:blue;
+    color:yellow;
+    padding: 30px;
+    border:2px solid blue;
+    margin-left:200px;
+}

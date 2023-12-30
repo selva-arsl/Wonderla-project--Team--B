@@ -1,0 +1,729 @@
+/*------------------------Universal selector---------------------------*/
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+/*------------------------Root css root functions----------------- */
+:root{
+    --darkblue:#0A2254;
+    --cblack:#000000;
+    --yellow:#F8DB0B;
+    --cwhite:rgb(255,255,255);
+    --fb:#1877F2;
+    --twit:#1DA1F2;
+    --pin:#c8232c;
+    --inst:#F70181;
+    --yout:#FF0000;
+    --flig:#0d9855;
+}
+
+
+/*-------------------------Wonderla Kochi------------------------------*/
+
+.second{
+    width:100%;
+    min-height: 100vh;
+    background-color:var(--cwhite);
+    text-align:center;
+}
+
+.part h1:nth-child(1){
+    color:var(--cblack);
+    font-size:50px;
+    padding:55px;
+
+}
+
+.part h3:nth-child(2){
+    color:var(--darkblue);
+    font-size:35px;
+}
+
+.part p:nth-child(3){
+    font-weight:bold;
+    font-size:20px;
+    letter-spacing:-3px;
+    padding-bottom:20px;
+}
+
+.part p:nth-child(4),.part p:nth-child(5)
+{
+    font-size:23px;
+    padding:10px 50px;
+}
+
+.four-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+  
+}
+
+.box1,.box3
+{
+
+    color:var(--cwhite);
+    background-color:var(--darkblue);
+    padding:25px 30px;
+}
+.box2,.box4
+{
+    color:var(--darkblue);
+    background-color:var(--yellow);
+    padding:25px 30px;
+}
+
+.fa-ticket,.fa-clock,.fa-map-location-dot,.fa-circle-question{
+    font-size:35px;
+    padding:10px;
+}
+.box{
+    width:200px;
+    min-height:150px;
+    border:3px solid var(--cwhite);
+}
+
+.box:hover{
+    border:3px solid var(--darkblue);
+    background-color:var(--cwhite);
+    color:var(--darkblue);
+}
+
+
+/*-----------------A day well spent!--------------------*/
+.spent{
+    width:100%;
+    min-height:125vh;
+    background-color: skyblue;
+    background-image: url("./images/wonderla-images.avif");
+    background-repeat:no-repeat;    
+    background-size:cover;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+    position:relative;
+
+}
+.spent-box{
+   width:25%;
+   background-color: rgba(255, 255, 255,0.9);
+   padding:60px 50px;
+   position:absolute;
+   left:150px;
+   top:150px;
+}
+
+.spent-box h3:nth-child(1){
+  color:var(--darkblue);
+  text-align:center;
+  font-size:35px;
+}
+
+.spent-box p:nth-child(2){
+    text-align:center;
+    font-weight:bold;
+    letter-spacing: -3px;
+}
+.spent-box p:nth-child(3){
+    font-size:18px;
+    line-height: 33px;
+    
+}
+
+
+/*-----------------Fly without wings--------------------*/
+.fly-container{
+    width:100%;
+    height:100vh;
+    background-image: url("./images/fly.avif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    /* clip-path: polygon(0 0, 100% 8%, 100% 100%, 0% 100%); */
+    
+}
+
+.fly-container h1{
+    color:var(--darkblue);
+    text-align:center;
+    font-size:40px;
+    padding:40px 180px 2px;
+    font-weight:bold;
+}
+
+.fly-container p{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    letter-spacing:-5px;
+}
+
+.fourlinks ul li{
+    display:inline-block;
+    list-style-type:none;
+    font-size:25px;
+    padding:10px 25px 25px;
+    margin-right:20px;
+    cursor:pointer;
+    
+    
+}
+
+.fourlinks ul li:hover{
+    border:3px solid orange;
+    border-left:none;
+    border-top:none;
+    border-right:none;
+}
+
+
+.high-thrill-riders{
+    width:100%;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 200px;
+}
+.left,.right{
+    width:50%;
+    height:400px;
+}
+
+.left img{
+    width:100%;
+    height:400px;
+    object-fit: cover;
+}
+
+.right h3{
+    font-size:28px;
+    padding:0px 50px 30px 50px;
+    line-height: 40px;
+    text-align:left;
+}
+
+.right button{
+    color:orange;
+    font-weight:bold;
+    font-size:20px;
+    cursor:pointer;
+    padding:10px 30px;
+    background:transparent;
+    display:flex;
+    justify-content:start;
+    align-items: start;
+    margin-left:50px;
+    
+}
+
+
+
+
+/*------------------wonderla tips--------------------*/
+
+.tips-overall{
+    width:100%;
+    min-height: 100vh;
+    background-color:var(--cwhite);
+}
+.tips-overall h1:nth-child(1){
+    color:var(--darkblue);
+    text-align:center;
+    padding-top:50px;
+
+}
+.tips-overall p:nth-child(2){
+    font-weight: bold;
+    font-size:20px;
+    text-align:center;
+    letter-spacing:-3px;
+    padding-bottom:40px;
+}
+
+
+.box-overall{
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+  text-align: center;
+  
+
+
+}
+.boxs{
+    padding:40px 30px;
+    background-color: var(--cwhite);
+}
+
+.box-overall .boxs{
+    width:25%;
+    min-height:300px;
+    
+    
+}
+
+.fa-ticket-simple,.fa-cart-shopping,.fa-lock{
+    font-size:50px;
+    color:var(--darkblue);
+}
+
+.boxs h3{
+    font-size:25px;
+    padding:15px 20px;
+    color:var(--darkblue);
+}
+.boxs p{
+    font-size:20px;
+    color:var(--cblack);
+}
+
+.offer{
+    text-align:center;
+    font-size:23px;
+    padding:50px;
+}
+
+.know button{
+  color:var(--yellow);
+  background-color: var(--darkblue);
+  padding:12px 30px;
+  font-weight:bold;
+}
+.know{
+    display: grid;
+    place-items: center;
+}
+
+.know button:hover{
+    border:3px solid var(--darkblue);
+    background-color:white;
+    color:var(--darkblue);
+}
+
+
+/*-----------------video content--------------------*/
+.video-overall{
+    width:100%;
+    min-height: 100vh;
+    background-color:var(--yellow);
+    display:grid;
+    justify-items: center;
+    align-items: center;
+    clip-path: polygon(0 80px,100% 0,100% calc(100% - 80px),0% 100%);
+    
+}
+
+.video-overall video{
+    width:800px;
+    min-height: 500px;
+    border-radius:100px 100px 50px 50px;
+}
+
+/*-------------------------Flip card Design---------------------------------*/
+.flip-container{
+    width:100%;
+    min-height:100vh;
+    /* background-image: url("./images/Fantasticbg.avif");
+    background-repeat: no-repeat;
+    background-size:cover; */
+    /* background:linear-gradient(135deg, #e3dbf6,#a99bf9); */
+    background-color:var(--cwhite);
+    padding:10px;
+}
+
+.card{
+    width:350px;
+    height:515px;
+    margin:100px auto 0;
+    perspective:1000px;
+   
+}
+
+.card-inner{
+    width:100%;
+    height:100%;
+    position:relative;
+    transition:transform 1s;
+    transform-style:preserve-3d;
+}
+.front,.back{
+    width:100%;
+    height:100%;
+    border-radius:15px;
+    position:absolute;
+    backface-visibility: hidden;
+}
+
+.front{
+    background-image:url("./images/selva.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    padding:20px 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    color:black;
+    
+}
+.front h2{
+    font-weight:500;
+    padding-bottom:5px;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.front p{
+    color:black;
+    font-size:15px;
+}
+
+.front button{
+    width: 120px;
+    border:1px solid #fff;
+    background: transparent;
+    border-radius:50px;
+    padding:5px 8px;
+    margin-top:6px;
+    cursor:pointer;
+    color:white;
+    font-weight: bold;
+   
+}
+
+.back{
+    background-color:whitesmoke !important;
+    color:#333;
+    padding:20px 40px;
+    transform:rotateY(180deg);
+}
+
+.back h1{
+    font-size:50px;
+    line-height:55px;
+    margin-bottom:10px;
+
+}
+
+.back h1 span{
+    font-weight:400;
+}
+
+.back p{
+    font-size:16px;
+}
+
+.back p span{
+    font-weight:600;
+}
+
+.back img{
+    width:140px;
+}
+
+.row{
+    display:flex;
+    align-items: center;
+    margin-top:30px;
+}
+
+.col{
+    flex:1;
+    text-align: center;
+    color:#555;
+    font-size:15px;
+    position:relative;
+}
+
+.col::after{
+    content:'';
+    width:1.5px;
+    height:20px;
+    background: #7800ad;
+    position: absolute;
+    top:5px;
+    right:0px;
+}
+
+.col:last-child::after{
+    display:none;
+}
+
+.col p{
+    margin-top:5px;
+}
+
+.back button{
+    background:#7800ad;
+    color:#fff;
+    border:0;
+    outline:0;
+    padding:8px 25px;
+    border-radius:30px;
+    font-size:20px;
+    margin-right:15px;
+    box-shadow: 0 8px 10px rgba(120,0,173,0.3);
+    cursor:pointer;
+}
+
+.back a{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 5px;
+}
+
+/* .fa-instagram,.fa-facebook{
+    font-size:20px !important;
+    
+}
+
+.fa-instagram{
+    color:red;
+}
+.fa-facebook{
+    color:blue;
+} */
+
+.card:hover .card-inner{
+    transform:rotateY(180deg);
+}
+
+
+/*------------------smooth ride!--------------------*/
+   
+.smooth-overall{
+    width:100%;
+    min-height:525px;
+    background-color: var(--darkblue);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.waterride{
+    width:50%;
+    min-height:525px;
+}
+.waterride img{
+    width:100%;
+    min-height:525px;
+    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
+
+
+    
+    
+}
+
+.rightside-content
+{
+    width:50%;
+    height:525px;
+    color:var(--cwhite); 
+    padding:100px; 
+    
+}
+
+.rightside-content h3{
+    font-size:40px;
+}
+.rightside-content p:nth-child(2){
+    font-size:25px;
+    font-weight:bold;
+    letter-spacing: -5px;
+}
+
+.rightside-content ul{
+    padding-left:60px;
+}
+
+.rightside-content ul li{
+    font-size:25px;
+    line-height:40px;   
+}
+
+
+/*------------------optimal experience!--------------------*/
+   
+.optimal-overall{
+    width:100%;
+    min-height:525px;
+    background-color: var(--yellow);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.leftside-content
+{
+    width:50%;
+    height:525px;
+    color:var(--darkblue);
+    padding:100px 70px; 
+   
+}
+
+.leftside-content h3{
+    font-size:40px;
+}
+.leftside-content p:nth-child(2){
+    font-size:25px;
+    font-weight:bold;
+    letter-spacing: -5px;
+}
+.leftside-content p:nth-child(3){
+    font-size:25px;
+    padding-bottom:20px;
+}
+
+.more button{
+    color:var(--yellow);
+    background-color: var(--darkblue);
+    padding:12px 30px;
+    font-weight:bold;
+  }
+  
+  .more button:hover{
+      border:3px solid var(--darkblue);
+      background-color:white;
+      color:var(--darkblue);
+  }
+  
+
+  .optimal{
+    width:50%;
+    min-height:525px;
+    }
+  .optimal img{
+    width:100%;
+    min-height:525px;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%);
+   
+
+   }
+
+   /*-----------------------Footer area----------------------------*/
+
+   footer{
+    width:100%;
+    height:100vh;
+    color:var(--cwhite);
+    background-image: url("./images/footerbg.avif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align:center;
+    padding:40px;
+   }
+
+   footer h3:nth-child(1){
+    padding-top:40px;
+
+   }
+   footer h3:nth-child(2){
+    padding:10px 0px 35px;
+
+   }
+
+   footer .contents{
+    text-align:center;
+   }
+
+   .mail{
+    font-size:25px;
+    cursor:pointer;
+   }
+   .mail:hover{
+    color:var(--yellow);
+   }
+   
+   .fa-envelopes-bulk,.fa-envelope-open-text,.fa-square-phone-flip,.fa-square-phone-flip{
+    font-size:35px;
+    padding-right:20px;
+    padding-left:50px;
+   }
+
+   span{
+    font-size:20px;
+    
+   }
+
+   footer h3:nth-child(4){
+    padding:50px 0px 20px;
+   }
+
+   .fa-facebook-f,.fa-twitter,.fa-pinterest,.fa-instagram,.fa-youtube,.fa-plane-departure{
+    font-size:35px;
+    color:var(--darkblue);
+    background-color:var(--cwhite);
+    width:60px;
+    height:60px;
+    padding:12px;
+    border-radius:50%;
+    margin-right:15px;
+
+   }
+
+   .fa-facebook-f:hover,.fa-twitter:hover,.fa-pinterest:hover,.fa-instagram:hover,.fa-youtube:hover,.fa-plane-departure:hover{
+    color:var(--cwhite);
+   }
+
+   .fa-facebook-f:hover{
+    background-color:var(--fb);
+   }
+
+   .fa-twitter:hover{
+    background-color:var(--twit);
+   }
+
+   .fa-pinterest:hover{
+    background-color:var(--pin);
+   }
+
+   .fa-instagram:hover{
+    background-color:var(--inst);
+   }
+
+   .fa-youtube:hover{
+    background-color:var(--yout);
+   }
+
+   .fa-plane-departure:hover{
+    background-color:var(--flig);
+   }
+   
+   .line{
+    font-size:30px;
+    font-weight:bold;
+    letter-spacing:-5px;
+    padding:50px 0px 0px;
+   }
+
+   footer ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding-right:30px ;
+    font-size:23px;
+    font-weight:bold;
+   
+   }
+
+   footer ul li:hover{
+    color:var(--yellow);
+    cursor:pointer;
+    font-weight:bold;
+   
+  
+   }
+
+   footer p:last-child{
+    font-size:23px;
+    padding:30px;
+   }
