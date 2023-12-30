@@ -6,28 +6,100 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-h1{
-    text-align: center;
-    margin-top: 30px;
-}
-.full{
+  .rectangle{
     width: 100%;
-    min-height: 500px;
-    background-color: blueviolet;
-
-}
-.picture{
-    width: 50%;
-    min-height: 500px;
-    background-image: url(./wonder.jpeg);
+    height: 500px;
+    background-color:rgb(23, 19, 44);
+    margin-top:180px;
+  
+  }
+  
+  .firsthalf{
+    width: 55%;
+    height: 500px;
+    background-image: url(./nature.jpeg);
     background-position: center;
     background-size: cover;
-}
-
-.picture img{
-    width: 40%;
-    height: 500px;
-    z-index: 1;
-}
+    /* position:relative; */
+    background:linear-gradient(rgb(234, 164, 36),rgb(217, 181, 130));
+    opacity: 0.5;
+  }
+  .firsthalf img{
+    width: 800px;
+    height: 570px;
+    position:relative;
+    bottom:70px;
+    left:200px;
+    
+  }
+  
+  .box{
+    width: 500px;
+    padding: 10px;
+    /* border: 2px solid black; */
+    background-color: rgb(144, 188, 173);
+    position: absolute;
+    top:112px;
+    left:812px;
+    
+     /* position: relative;
+     bottom:200px;
+     left: 200px; */
+    /* margin:10px,20px; */
+  }
+  
+  .box h1{
+    text-align: center;
+    color: rgb(23, 19, 44);
+    margin:0px,30px;
+  }
+  
+  .sample{
+    text-align: center;
+    line-height: 30px;
+    margin-top: 30px;
+    
+  }
+  
+  .sample p{
+    font-size:12px;
+    font-weight:bold;
+    margin-top: 20px;
+  }
+  .form{
+    display: flex;
+    justify-content:start;
+    align-items:start;
+    gap:10px;
+  }
+  .label{
+    margin: 30px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  input{
+    width:600px;
+    height:30px;
+    font-size:13px;
+    margin-top: 20px;
+  }
+  textarea{
+    width: 600px;
+    height:100px;
+  }
+  
+  button{
+    margin: 20px 120px;
+    background-color: #0f162f;
+    border: none;
+    color: rgb(214, 221, 15);
+    padding: 10px 70px;
+   
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+  }
   
   
