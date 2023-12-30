@@ -235,6 +235,7 @@ nav input:checked~.link{
     width:200px;
     min-height:150px;
     border:3px solid var(--cwhite);
+    transition:1s;
 }
 
 .box:hover{
@@ -574,10 +575,12 @@ nav input:checked~.link{
   background-color: var(--darkblue);
   padding:12px 30px;
   font-weight:bold;
+  transition: 1s ease;
 }
 .know{
     display: grid;
     place-items: center;
+    
 }
 
 .know button:hover{
@@ -1060,6 +1063,7 @@ nav input:checked~.link{
     background-color: var(--darkblue);
     padding:12px 30px;
     font-weight:bold;
+    transition:1s ease;
   }
   
   .more button:hover{
@@ -1195,6 +1199,8 @@ nav input:checked~.link{
 
    .fa-facebook-f:hover,.fa-twitter:hover,.fa-pinterest:hover,.fa-instagram:hover,.fa-youtube:hover,.fa-plane-departure:hover{
     color:var(--cwhite);
+    transition: 1s;
+    cursor:pointer;
    }
 
    .fa-facebook-f:hover{
