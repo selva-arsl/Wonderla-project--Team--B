@@ -107,6 +107,8 @@ nav input:checked~.link{
 
     nav{
         position:relative;
+        position:fixed;
+        z-index:99999;
     }
     nav .link{
         display:none;
