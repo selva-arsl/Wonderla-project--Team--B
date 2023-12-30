@@ -283,9 +283,11 @@
 .flip-container{
     width:100%;
     min-height:100vh;
-    background-image: url("./images/Fantasticbg.avif");
+    /* background-image: url("./images/Fantasticbg.avif");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:cover; */
+    /* background:linear-gradient(135deg, #e3dbf6,#a99bf9); */
+    background-color:var(--cwhite);
     padding:10px;
 }
 
@@ -360,6 +362,7 @@
     font-size:50px;
     line-height:55px;
     margin-bottom:10px;
+
 }
 
 .back h1 span{
@@ -435,7 +438,7 @@
 }
 
 .fa-instagram,.fa-facebook{
-    font-size:20px;
+    font-size:20px !important;
     
 }
 
