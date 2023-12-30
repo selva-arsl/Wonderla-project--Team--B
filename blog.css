@@ -40,19 +40,6 @@ h1{
     place-items: center;
    
 }
-.btn1 button{
-    background-color:#FFD336;
-    color:black;
-    font-weight:bold;
-    padding:15px 80px;
-    font-size:16px;
-    position:absolute;
-    top:220px;
-    left:68px;
-    cursor:pointer;
-    clip-path: polygon(9% 0,100% 0,91% 100%,0% 100%);
-    
-}
 
 .card1 h3{
     color:#FFD336;
@@ -67,9 +54,7 @@ h1{
     padding:0px 30px 30px;
 }
 
-.card1 img:hover{
-    filter: brightness(30%);
-}
+
 
 
 @media only screen and (min-width:320px) and (max-width:600px){
