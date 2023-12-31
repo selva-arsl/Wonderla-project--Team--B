@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 1</title>
+    <link rel="stylesheet" href="./dining.css">
+</head>
+<body>
+    <div class="box">
+<button>Food and Dining</button>
+    </div>
+    <div class="a">
+<h1>Food & Dining at Wonderla Park, Kochi
+</h1>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./photo (1).jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./photo (2).jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./photo (3).jpeg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    </div>
+    <div content>
+      Wonderla Amusement Park, Kochi offers a variety of tasty dishes and lip-smacking food at our 10+ eateries, along with fruit shakes to beat the heat. It can easily accommodate over 1,000 people, ensuring that you will never have to stand around and wait for a table. It also houses one of the best snack counters and cafes in Kochi. Head over to the park for a fun-filled day with family, friends and loved ones, to enjoy thrilling rides and mouth-watering dishes.
+      <br>
+      <br>
+"Buffet lunch is also available at all three parks and the resort, upon prior booking!aaaaaaaaaaaaaaaa"
+    </div>
+</body>
+</html>
+  
