@@ -1,9 +1,24 @@
+/*------------------------Universal selector---------------------------*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/*------------------------Root css root functions----------------- */
+:root{
+  --darkblue:#0A2254;
+  --cblack:#000000;
+  --yellow:#F8DB0B;
+  --cwhite:rgb(255,255,255);
+  --fb:#1877F2;
+  --twit:#1DA1F2;
+  --pin:#c8232c;
+  --inst:#F70181;
+  --yout:#FF0000;
+  --flig:#0d9855;
+}
+/*----------------facilities---------------------------*/
 .container{
            display: flex;
            justify-content: center;
