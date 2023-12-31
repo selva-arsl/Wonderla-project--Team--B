@@ -60,8 +60,6 @@ nav .link a{
       padding:10px;
       transition:0.5s ease;
       color:white;
-    
-      /* border-radius:20px; */
 
 }
 
@@ -77,16 +75,6 @@ nav .link a:hover{
     color:var(--yellow);
 }
 
-
-
-
-/* nav .link a:hover{
-    color:rgb(29,169,74);
-    
-     padding:10px 20px;
-    
-     
-} */
 
 nav .link{
     display:flex;
@@ -349,7 +337,7 @@ nav input:checked~.link{
 
     .spent{
         width:100%;
-        height:125vh;
+        min-height:125vh;
         background-color: skyblue;
         background-image: url("./images/wonderla-images.avif");
         background-repeat:no-repeat;    
@@ -362,20 +350,23 @@ nav input:checked~.link{
     .spent-box{
         width:100%;
         min-height:300px;
-        background-color: rgba(255, 255, 255,0.9);
+        background-color: rgba(255, 255, 255,0.8);
         padding:20px;
         position:absolute;
         left:0px;
         top:250px;
+        
      }
      .spent-box h3:nth-child(1){
         color:var(--darkblue);
         text-align:center;
         font-size:25px;
+        font-weight:bold;
       }
       .spent-box p:nth-child(3){
         font-size:16px;
         line-height:28px;
+        
         
     }
 
@@ -399,8 +390,8 @@ nav input:checked~.link{
     .spent-box{
         width:100%;
         min-height:250px;
-        background-color: rgba(255, 255, 255,0.9);
-        padding:40px;
+        background-color: rgba(255, 255, 255,0.8);
+        padding:20px;
         position:absolute;
         left:0px;
         top:400px;
@@ -409,9 +400,10 @@ nav input:checked~.link{
         color:var(--darkblue);
         text-align:center;
         font-size:35px;
+        font-weight: bold;
       }
       .spent-box p:nth-child(3){
-        font-size:20px;
+        font-size:18px;
         line-height:33px;
         
     }
@@ -623,9 +615,55 @@ nav input:checked~.link{
             font-size:20px;
         }
         .tips-overall h1:nth-child(1){
-            font-size:25px;
+            font-size:20px;
             line-height:33px;
         }
+        .tips-overall p:nth-child(2){
+            font-weight: bold;
+            font-size:15px;
+            text-align:center;
+            letter-spacing:-3px;
+            padding-bottom:40px;
+        }
+        .know button{
+            color:var(--yellow);
+            background-color: var(--darkblue);
+            padding:5px 15px;
+            font-weight:bold;
+            transition: 1s ease;
+          }
+          .boxs{
+            padding:20px;
+            background-color: var(--cwhite);
+        }
+        
+        .box-overall .boxs{
+            width:100%;
+            min-height:200px;
+            
+            
+        }
+        .fa-ticket-simple,.fa-cart-shopping,.fa-lock{
+            font-size:30px;
+            color:var(--darkblue);
+        }
+        
+        .boxs h3{
+            font-size:20px;
+            padding:10px 10px;
+            color:var(--darkblue);
+        }
+        .boxs p{
+            font-size:15px;
+            color:var(--cblack);
+        }
+        
+        .offer{
+            text-align:center;
+            font-size:15px;
+            padding:30px;
+        }
+        
 }
 
 /*Tab view*/
@@ -665,38 +703,38 @@ nav input:checked~.link{
 /*-----------------video content--------------------*/
 .video-overall{
     width:100%;
-    min-height: 100vh;
+    min-height:100%;
     background-color:var(--yellow);
     display:grid;
     justify-items: center;
     align-items: center;
     clip-path: polygon(0 80px,100% 0,100% calc(100% - 80px),0% 100%);
+    padding:100px 90px;
     
 }
 
 .video-overall video{
     width:800px;
     min-height: 500px;
-    border-radius:100px 100px 50px 50px;
+    
 }
 
 /*mobile view*/
 @media only screen and (min-width:320px) and (max-width:500px){
     .video-overall{
         width:100%;
-        min-height:50vh;
-        background-color:var(--yellow);
+        min-height:100%; 
         display:grid;
         justify-items: center;
         align-items: center;
-        clip-path: polygon(0 80px,100% 0,100% calc(100% - 80px),0% 100%);
-        padding:10px;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        padding:15px 7px;
         
     }
     .video-overall video{
         width:80%;
         min-height:80%;
-        border-radius:50px 50px 25px 25px;
+    
     }
 }
 
@@ -704,19 +742,18 @@ nav input:checked~.link{
 @media only screen and (min-width:500px) and (max-width:1200px){
     .video-overall{
         width:100%;
-        min-height:100vh;
-        background-color:var(--yellow);
+        min-height:100%;
         display:grid;
         justify-items: center;
         align-items: center;
-        clip-path: polygon(0 80px,100% 0,100% calc(100% - 80px),0% 100%);
-        padding:10px;
+        clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0 100%);
+        padding:20px 30px;
         
     }
     .video-overall video{
-        width:80%;
+        width:90%;
         min-height:100%;
-        border-radius:50px 50px 25px 25px;
+      
     }
 }
 
@@ -983,6 +1020,13 @@ nav input:checked~.link{
         display:grid;
         grid-template-columns: auto;
     }
+    .waterride img{
+        width:100%;
+        min-height:525px;
+        object-fit: cover;
+        clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+    }
+    
     .rightside-content
 {
     /* width:100%; */
@@ -1013,6 +1057,12 @@ nav input:checked~.link{
         align-items: center;    */
         display:grid;
         grid-template-columns: auto;
+    }
+    .waterride img{
+        width:100%;
+        min-height:525px;
+        object-fit: cover;
+        clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
     }
     .rightside-content
 {
@@ -1097,6 +1147,9 @@ nav input:checked~.link{
         grid-template-columns: auto;
         
     }
+    .optimal img{
+        clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 100%);
+       }
     .leftside-content
     {
         width:100%;
