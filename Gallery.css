@@ -6,6 +6,161 @@
 .galleryoverall{
     width: 100%;
 }
+/*    start navbar */
+:root{
+    --darkblue:#0A2254;
+    --cblack:#000000;
+    --yellow:#F8DB0B;
+    --cwhite:rgb(255,255,255);
+    --fb:#1877F2;
+    --twit:#1DA1F2;
+    --pin:#c8232c;
+    --inst:#F70181;
+    --yout:#FF0000;
+    --flig:#0d9855;
+    --pink:#FFE3EF;
+    --skyblue:#C3EBFF;
+    --lightgreen:#D4FFE1;
+    --lightyellow:#FFF9C6;
+    --lignt:#eee1ca;
+    --light:#90ee90
+}
+
+/*---------------------------------------------nav logo----------------------------------------------------------*/
+
+nav .logo{
+    width:200px;
+    height:100px;
+    
+}
+nav .logo img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+nav{
+    width:100%;
+    height:100px;
+    background-color:var(--darkblue);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px 40px;
+    position:fixed;
+    z-index:99999;
+
+    
+
+}
+
+nav .link a{
+     
+      font-weight:bold;
+      text-transform: capitalize;
+      padding:10px;
+      transition:0.5s ease;
+      color:white;
+
+}
+
+nav .link a{
+    font-size:25px;
+    text-decoration:none;
+    font-weight:bold;
+    position: relative;
+    z-index: 9999;
+}
+
+nav .link a:hover{
+    color:var(--yellow);
+}
+
+
+nav .link{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    transition:all 0.5s linear;
+}
+nav .fa-bars{
+    display:none;
+    color:var(--cwhite);
+
+}
+
+nav input{
+    display:none;
+}
+
+nav input:checked~.link{
+    display:flex;
+    left:0;
+}
+
+/*mobile view and Tab view*/
+
+@media only screen and (min-width:320px) and (max-width:1422px){
+
+    nav{
+        position:relative;
+        position:fixed;
+        z-index:99999;
+    }
+    nav{
+        /* width:100%;
+        height:100px; */
+        background-color:var(--darkblue);
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:40px 40px;
+        position:fixed;
+        z-index:99999;
+    
+        
+    
+    }
+    nav .link{
+        display:none;
+        position:absolute;
+        width:100%;
+        color:var(--cwhite);
+        background-color:var(--darkblue);
+        /* border:5px solid black; */
+        top:90px;
+        left:100%;
+        flex-direction:column;
+        gap:5px;
+
+    }
+
+    nav .link a{
+        border:1px solid silver;
+        width:100%;
+        text-align:center;
+        border-left:none;
+        border-right:none;
+        border-top:none;
+        
+    }
+
+    nav .link a:hover{
+        width:250px;
+    }
+    nav .fa-bars{
+        display:block;
+        font-size:30px;
+        
+        }
+
+        nav .logo{
+            width:200px;
+            height:90px;
+        }
+}
+/*    end navbar */
 .galleryoverallimg{
     width:100%;
     display: flex;
@@ -19,6 +174,10 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
+}
+.gallerynav h3{
+    margin-top: 120px;
 }
 .gallerynav h3 a:hover{
     color: blue;
