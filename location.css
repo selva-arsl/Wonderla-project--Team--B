@@ -8,12 +8,12 @@
   
 .next{
   width: 100%;
-  height:100vh;
-  background-color: aquamarine;
+  min-height:1500px;
+  background-color: rgb(217, 244, 239);
 }
 
 .first{
-  background-color: rgb(104, 57, 149);
+  background-color: rgb(35, 22, 47);
   width: 80%;
   height: 30px;
   position: relative;
@@ -66,30 +66,98 @@ iframe{
 
 .box1{
   
-  width: 300px;
-  padding:50px;
-  /* border: 2px solid black; */
-  margin-top: 40px;
-  background-color: rgb(180, 243, 236);
+  width: 230px;
+  height: 500px;
+  /* padding:40px; */
+
+  
+  border: 1px solid black;
+  /* margin-top: 40px; */
+  /* background-color: rgb(180, 243, 236); */
+  position:absolute;
+  top:30px;
+  right:7px;
  
 }
 .box1 img{
-  width: 250px;
+  width: 230px;
   height: 200px;
   
 
 }
 .box1 p{
   font-size: 14px;
+  /* border-right: 3px solid black; */
 }
 
 .box1 h3{
   text-align: center;
   background-color: rgb(244, 236, 25);
   color: white;
-  padding: 0px 50px;
+  padding: 0px 20px;
+  width: 230px;
+  margin-top: 10px;
 }
 .box1 p{
-  line-height:30px;
+  line-height:25px;
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 10px;
+  font-weight: bold;
 }
+
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  padding: 40px;
+  /* gap: 30px; */
+}
+
+.form input{
+  width: 100%;
+  padding: 10px 50px;
+  margin: 30px;
+}
+
+.to input{
+  width: 100%;
+  padding:10px 50px ;
+  margin: 30px;
+}
+.btn{
+ 
+    background-color: #0f162f;
+    border: none;
+    color: rgb(214, 221, 15);
+    padding: 10px 50px;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top: 15px;
+   
+    text-decoration: none;
+    display: inline-block;
+    
+    /* margin: 4px 2px; */
+    cursor: pointer;
+}
+
+.main .form label{
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.main .to label{
+  font-weight: bolder;
+  margin-bottom: 10px;
+
+}
+
+.weather img{
+  width: 100%;
+  height: 200px;
+}
+
 
