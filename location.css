@@ -227,12 +227,11 @@ iframe{
   
   width: 230px;
   height: 500px;
-  /* padding:40px; */
+ 
 
   
   border: 1px solid black;
-  /* margin-top: 40px; */
-  /* background-color: rgb(180, 243, 236); */
+  
   position:absolute;
   top:30px;
   right:7px;
@@ -246,7 +245,7 @@ iframe{
 }
 .box1 p{
   font-size: 14px;
-  /* border-right: 3px solid black; */
+  
 }
 
 .box1 h3{
@@ -271,7 +270,7 @@ iframe{
   align-items: center;
   justify-content:space-evenly;
   padding: 40px;
-  /* gap: 30px; */
+  
 }
 
 .form input{
@@ -328,7 +327,7 @@ footer{
   width:100%;
   min-height:100vh;
   color:var(--cwhite);
-  background-image: url("./images/footerbg.avif");
+  background-image: url("images/footerbg.avif");
   background-repeat: no-repeat;
   background-size:cover;
   text-align:center;
