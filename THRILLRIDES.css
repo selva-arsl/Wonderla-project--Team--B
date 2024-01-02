@@ -231,11 +231,14 @@ nav input:checked~.link {
 {
     margin-top:20px;
     width:100%;
-    display:flex;
-    flex-direction: row;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
     gap:30px;
     padding-left:120px;
     padding-right:120px;
+    align-items: center;
+    justify-content: center;
+    
      
 }
 
@@ -243,6 +246,7 @@ nav input:checked~.link {
 {
     
     position:relative;
+
 }
 .subcontainer>div>img
 {
@@ -258,7 +262,7 @@ nav input:checked~.link {
        bottom:10px;
        color:white;
        font-weight:bold;
-       text-align: center;
+       
 
 }
 
