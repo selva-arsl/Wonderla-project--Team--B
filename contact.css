@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
   }
 
 
@@ -39,8 +39,8 @@ nav{
   justify-content: space-between;
   align-items: center;
   padding:0px 40px;
-  position:fixed;
-  z-index:99999;
+  /* position:fixed;
+  z-index:99999; */
 
 }
 
@@ -149,31 +149,38 @@ nav input:checked~.link{
       }
 }
 
+
+
+/* --------------------------------------heading css------------------------------------------- */
+.heading h1{
+  font-size:40px;
+  font-weight:bold;
+  text-align: center;
+  padding:30px;
+  color:var(--darkblue);
+}
+
+
+/* --------------------------------------left and right container------------------------------------------- */
+
   .rectangle{
     width: 100%;
     height: 500px;
-    background-color:rgb(23, 19, 44);
+    background-image: url("./images/contact\ bg.avif");
+    background-repeat: no-repeat;
+    background-size:cover;
     margin-top:180px;
+    position:relative;
+    border:3px solid black;
   
   }
   
   .firsthalf{
     width: 55%;
     height: 500px;
-    background-image: url(./nature.jpeg);
-    background-position: center;
-    background-size: cover;
     /* position:relative; */
-    background:linear-gradient(rgb(234, 164, 36),rgb(217, 181, 130));
+    /* background:linear-gradient(rgb(234, 164, 36),rgb(217, 181, 130)); */
     opacity: 0.5;
-  }
-  .firsthalf img{
-    width: 800px;
-    height: 570px;
-    position:relative;
-    bottom:70px;
-    left:200px;
-    
   }
   
   .box{
@@ -182,19 +189,25 @@ nav input:checked~.link{
     /* border: 2px solid black; */
     background-color: rgb(144, 188, 173);
     position: absolute;
-    top:112px;
-    left:812px;
+    top:320px;
+    left:700px;
     
-     /* position: relative;
-     bottom:200px;
-     left: 200px; */
-    /* margin:10px,20px; */
+  
   }
   
   .box h1{
     text-align: center;
-    color: rgb(23, 19, 44);
-    margin:0px,30px;
+    color:var(--darkblue);
+    padding:10px 0px;
+    
+  }
+
+  .box>p{
+    text-align:center;
+    font-weight:bold;
+    letter-spacing:-5px;
+    font-size:25px;
+    padding:5px 0px;
   }
   
   .sample{
@@ -203,32 +216,32 @@ nav input:checked~.link{
     margin-top: 30px;
     
   }
+  .sample h2{
+    font-weight:bold;
+    font-size:25px;
+  }
+
   
   .sample p{
-    font-size:12px;
+    font-size:16px;
     font-weight:bold;
-    margin-top: 20px;
+    padding:15px 35px;
+  
   }
-  .form{
-    display: flex;
-    justify-content:start;
-    align-items:start;
-    gap:10px;
+
+  /*---------------------------------------Form----------------------------------------*/
+
+  
+  form label{
+     font-weight: bold;
+     padding-bottom:10px;
   }
-  .label{
-    margin: 30px;
-    font-size: 15px;
-    font-weight: bold;
+  form input{
+     width:100%;
+     height:35px;
   }
-  input{
-    width:600px;
-    height:30px;
-    font-size:13px;
-    margin-top: 20px;
-  }
-  textarea{
-    width: 600px;
-    height:100px;
+  form input::placeholder{
+    padding-left:20px;
   }
   
   button{
@@ -237,12 +250,19 @@ nav input:checked~.link{
     border: none;
     color: rgb(214, 221, 15);
     padding: 10px 70px;
-   
+    font-weight:bold;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    /* margin: 4px 2px; */
     cursor: pointer;
+    border:2px solid transparent;
+  }
+
+  button:hover{
+    color:var(--darkblue);
+    background-color:var(--cwhite);
+    font-weight: bold;
+    border:2px solid var(--darkblue);
   }
 
   .address{
