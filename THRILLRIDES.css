@@ -227,6 +227,40 @@ nav input:checked~.link {
     }
 }
 
+.subcontainer
+{
+    margin-top:20px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    padding-left:120px;
+    padding-right:120px;
+     
+}
+
+.subcontainer>div
+{
+    
+    position:relative;
+}
+.subcontainer>div>img
+{
+    width:100%;
+    height:300px;
+   
+}
+
+.subcontainer>div>h1
+{
+       position: absolute;
+       left:25%;
+       bottom:10px;
+       color:white;
+       font-weight:bold;
+       text-align: center;
+
+}
 
 
 
