@@ -47,7 +47,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding:40px 40px;
-    position:fixed;
+    position:sticky;
+    top:0;
     z-index:99999;
 
     
@@ -177,7 +178,7 @@ nav input:checked~.link{
     flex-wrap: wrap;
 }
 .gallerynav h3{
-    margin-top: 120px;
+   padding-top: 20px;
 }
 .gallerynav h3 a:hover{
     color: blue;
