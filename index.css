@@ -46,8 +46,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding:40px 40px;
-    position:fixed;
-    z-index:99999;
+    /* position:fixed;
+    z-index:99999; */
 
     
 
@@ -68,7 +68,7 @@ nav .link a{
     text-decoration:none;
     font-weight:bold;
     position: relative;
-    z-index: 9999;
+    z-index: 1;
 }
 
 nav .link a:hover{
@@ -104,19 +104,19 @@ nav input:checked~.link{
 
     nav{
         position:relative;
-        position:fixed;
+        /* position:fixed; */
         z-index:99999;
     }
     nav{
-        /* width:100%;
-        height:100px; */
+        width:100%;
+        height:100px;
         background-color:var(--darkblue);
         display:flex;
         justify-content: space-between;
         align-items: center;
         padding:40px 40px;
-        position:fixed;
-        z-index:99999;
+        /* position:fixed;
+        z-index:9999; */
     
         
     
@@ -125,6 +125,7 @@ nav input:checked~.link{
         display:none;
         position:absolute;
         width:100%;
+        height:500px;
         color:var(--cwhite);
         background-color:var(--darkblue);
         /* border:5px solid black; */
@@ -159,6 +160,32 @@ nav input:checked~.link{
             height:90px;
         }
 }
+/*-------------------------carousel slider-------------------------- */
+/* #carouselExampleIndicators{
+    width:100%;
+    height:100vh;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:500px){
+    #carouselExampleIndicators{
+        width:100%;
+        height:300px;
+        background-color: skyblue;
+     
+    }
+    .carousel-inner{
+        width:100%;
+        height:300px;
+        background-color: skyblue;
+    }
+    .active{
+        height: 400px;
+    } 
+    .carousel-indicators{
+        height:300px;
+    } 
+} */
 
 
 /*-------------------------Wonderla Kochi------------------------------*/
@@ -694,7 +721,7 @@ nav input:checked~.link{
     background-size:cover; */
     /* background:linear-gradient(135deg, #e3dbf6,#a99bf9); */
     background-color:var(--cwhite);
-    padding:10px;
+    padding:0px 10px 100px;
 }
 
 .card{
@@ -860,16 +887,39 @@ nav input:checked~.link{
 }
 
 /*mobile view*/
-@media only screen and (min-width:320px) and (max-width:500px){
+@media only screen and (min-width:320px) and (max-width:600px){
     .flip-container{
         width:100%;
-        min-height:80vh;
+        min-height:100%;
         /* background-image: url("./images/Fantasticbg.avif");
         background-repeat: no-repeat;
         background-size:cover; */
         /* background:linear-gradient(135deg, #e3dbf6,#a99bf9); */
         background-color:var(--cwhite);
-        padding:10px;
+        padding:0px 10px 50px;
+    }
+    
+    .card{
+        width:300px;
+        height:515px;
+        margin:100px auto 0;
+        perspective:1000px;
+       
+    }
+    
+}
+
+/*Tab view*/
+@media only screen and (min-width:600px) and (max-width:800px){
+    .flip-container{
+        width:100%;
+        min-height:100%;
+        /* background-image: url("./images/Fantasticbg.avif");
+        background-repeat: no-repeat;
+        background-size:cover; */
+        /* background:linear-gradient(135deg, #e3dbf6,#a99bf9); */
+        background-color:var(--cwhite);
+        padding:0px 10px 100px;
     }
     
     .card{
@@ -890,7 +940,9 @@ nav input:checked~.link{
     min-height:525px;
     background-color: var(--darkblue);
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns:repeat(auto-fit,minmax(600px,1fr));
+
+    
 }
 
 .waterride{
@@ -902,7 +954,8 @@ nav input:checked~.link{
     width:100%;
     min-height:525px;
     object-fit: cover;
-    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%); 
+    /* clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%); */
+    clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%); 
 }
 
 .rightside-content
@@ -986,6 +1039,7 @@ nav input:checked~.link{
         min-height:525px;
         object-fit: cover;
         clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+        /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 7% 100%); */
     }
     .rightside-content
 {
@@ -1011,18 +1065,18 @@ nav input:checked~.link{
     min-height:525px;
     background-color: var(--yellow);
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns:repeat(auto-fit,minmax(600px,1fr));
 }
 .leftside-content
 {
     width:100%;
     height:525px;
     color:var(--darkblue);
-    padding:100px 70px; 
+    padding:120px 55px;
 }
 
 .leftside-content h3{
-    font-size:40px;
+    font-size:38px;
 }
 .leftside-content p:nth-child(2){
     font-size:25px;
@@ -1030,7 +1084,7 @@ nav input:checked~.link{
     letter-spacing: -5px;
 }
 .leftside-content p:nth-child(3){
-    font-size:25px;
+    font-size:23px;
     padding-bottom:20px;
 }
 
@@ -1049,7 +1103,7 @@ nav input:checked~.link{
   }
 
   .optimal{
-    width:100%;
+    width: 100%;
     min-height:525px;
 
     }
@@ -1057,7 +1111,7 @@ nav input:checked~.link{
     width:100%;
     min-height:525px;
     object-fit: cover;
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 10% 100%);
    }
 
    /*mobile view*/
@@ -1090,7 +1144,7 @@ nav input:checked~.link{
    }
 
    /*Tab view*/
-   @media only screen and (min-width:600px) and (max-width:1000px){
+   @media only screen and (min-width:600px) and (max-width:1200px){
     .optimal-overall{
         width:100%;
         min-height:525px;
