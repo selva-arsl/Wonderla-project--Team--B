@@ -279,8 +279,8 @@ nav input:checked~.link{
         display: grid;
         justify-content: center;
         align-items: center; 
-        padding-left:50px;
-        margin-right: 100px; 
+        padding-left:75px;
+        margin-right: 70px; 
         line-height: 30px;
         grid-template-columns: auto;
         
@@ -302,6 +302,17 @@ nav input:checked~.link{
     }
 
     
+}
+@media screen and (min-width:320px) and (max-width:500px){
+    .parknavbar ul li{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        grid-template-columns: auto;
+
+    }
+   
 }
 /* footer */
 footer{
