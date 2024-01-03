@@ -168,45 +168,52 @@ nav input:checked~.link{
     width:100%;
     background-color:white;
     display:grid;
-    grid-template-columns:repeat(3,minmax(300px,1fr));
+    /* grid-template-columns:repeat(3,minmax(300px,1fr)); */
+    grid-template-columns: auto auto auto;
     justify-items: center;
     align-items: center;
     gap:40px;
     padding:50px 100px;
 }
-.card1{
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10,.card11
+{
     /* width:30%; */
-    min-height:500px;
+    height:100%;
     background-color:#143665;
     position:relative;
 }
 
-.card1 img{
+.card1 img,.card2 img,.card3 img,.card4 img,.card5 img,.card6 img,.card7 img,.card8 img,.card9 img,.card10 img,.card11
+{
     width:100%;
     height:250px;
     object-fit: cover;
 }
 
-.btn1{
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9,.btn10,.btn11
+{
     display:grid;
     place-items: center;
    
 }
 
-.card1 h3{
+.card1 h3,.card2 h3,.card3 h3,.card4 h3,.card5 h3,.card6 h3,.card7 h3,.card8 h3,.card9 h3,.card10 h3,.card11 h3
+{
     color:#FFD336;
     font-size:32px;
     padding:30px;
 }
 
-.card1 p{
+.card1 p,.card2 p,.card3 p,.card4 p,.card5 p,.card6 p,.card7 p,.card8 p,.card9 p,.card10 p,.card11 p
+{
     color:white;
     font-size:18px;
     line-height:33px;
     padding:0px 30px 30px;
 }
 
-.btn1 button{
+.btn1 button,.btn2 button,.btn3 button,.btn4 button,.btn5 button,.btn6 button,.btn7 button,.btn8 button,.btn9 button,.btn10 button,.btn11 button
+{
     background-color:#FFD336;
     color:black;
     font-weight:bold;
@@ -220,41 +227,71 @@ nav input:checked~.link{
     
 }
 
-.card1 img:hover{
+.card1 img:hover,.card2 img:hover,.card3 img:hover,.card4 img:hover,.card5 img:hover,.card6 img:hover,.card7 img:hover,.card8 img:hover,.card9 img:hover,.card10 img:hover,.card11 img:hover
+{
     filter: brightness(30%);
 }
 
 
-
+/*----------------------------mobile view---------------------------------------*/
 
 @media only screen and (min-width:320px) and (max-width:600px){
     .plan-container{
-        width:100%;
-        padding:20px;
+
         display:grid;
+        /* grid-template-columns:repeat(1,minmax(300px,1fr)); */
         grid-template-columns: auto;
+        justify-items: center;
+        align-items: center;
+        gap:15px;
+        padding:15px;
+
     }
-    .btn1 button{
-        background-color:#FFD336;
-        color:black;
-        font-weight:bold;
-        padding:15px 80px;
+    .card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10,.card11
+{
+    /* width:30%; */
+    height:100%;
+    background-color:#143665;
+    position:relative;
+}
+.btn1 button,.btn2 button,.btn3 button,.btn4 button,.btn5 button,.btn6 button,.btn7 button,.btn8 button,.btn9 button,.btn10 button,.btn11 button
+{
+    background-color:#FFD336;
+    color:black;
+    font-weight:bold;
+    padding:15px 80px;
+    font-size:16px;
+    position:absolute;
+    top:220px;
+    left: 68px;
+    cursor:pointer;
+    /* clip-path: polygon(9% 0,100% 0,91% 100%,0% 100%); */
+}
+    
+
+    .card1 p,.card2 p,.card3 p,.card4 p,.card5 p,.card6 p,.card7 p,.card8 p,.card9 p,.card10 p,.card11 p
+    {
+        color:white;
         font-size:16px;
-        position:absolute;
-        top:270px;
-        cursor:pointer;
-        clip-path: polygon(9% 0,100% 0,91% 100%,0% 100%);
-        
+        line-height:28px;
+        padding:20px;
     }
 
 }
 
-@media only screen and (min-width:600px) and (max-width:1000px){
+/*----------------------------Tab view---------------------------------------*/
+
+@media only screen and (min-width:600px) and (max-width:1290px){
     .plan-container{
-        width:100%;
-        padding:25px;
+
         display:grid;
+        /* grid-template-columns:repeat(2,minmax(300px,1fr)); */
         grid-template-columns: auto auto;
+        justify-items: center;
+        align-items: center;
+        gap: 40px;
+        padding:40px;
+
     }
     .btn1 button{
         background-color:#FFD336;
