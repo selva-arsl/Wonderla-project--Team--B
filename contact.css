@@ -184,6 +184,7 @@ nav input:checked~.link{
   }
   
   .box{
+    
     width: 500px;
     padding: 10px;
     /* border: 2px solid black; */
@@ -225,8 +226,14 @@ nav input:checked~.link{
   .sample p{
     font-size:16px;
     font-weight:bold;
-    padding:15px 35px;
+    padding:10px 35px;
   
+  }
+
+  @media only screen and (min-width:320px) and (max-width:600px){
+    .box{
+      flex-wrap: wrap;
+    }
   }
 
   /*---------------------------------------Form----------------------------------------*/
@@ -234,7 +241,7 @@ nav input:checked~.link{
   
   form label{
      font-weight: bold;
-     padding-bottom:10px;
+     padding-bottom:5px;
   }
   form input{
      width:100%;
