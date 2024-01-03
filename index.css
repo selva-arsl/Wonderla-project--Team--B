@@ -240,6 +240,7 @@ nav input:checked~.link {
     align-items: center;
     flex-wrap:wrap;
     padding:20px;
+    cursor:pointer;
   
 }
 
@@ -741,6 +742,7 @@ nav input:checked~.link {
     height:515px;
     margin:100px auto 0;
     perspective:1000px;
+    cursor:pointer;
    
 }
 
