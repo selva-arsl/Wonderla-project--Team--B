@@ -165,34 +165,39 @@ nav input:checked~.link{
 
   .rectangle{
     width: 100%;
-    height: 500px;
-    background-image: url("./images/contact\ bg.avif");
-    background-repeat: no-repeat;
-    background-size:cover;
-    margin-top:180px;
-    position:relative;
+    min-height: 500px;
     border:3px solid black;
-  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
   }
-  
+
   .firsthalf{
-    width: 55%;
-    height: 500px;
-    /* position:relative; */
-    /* background:linear-gradient(rgb(234, 164, 36),rgb(217, 181, 130)); */
-    opacity: 0.5;
+   width: 50%;
+   min-height:100%;
   }
+
+  .firsthalf img{
+    width:100%;
+    min-height:100%;
+    
+  }
+  .box0{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(144, 188, 173);
+  }
+
   
   .box{
     
-    width: 500px;
+    width: 100%;
+    height: 100%;
     padding: 10px;
     /* border: 2px solid black; */
     background-color: rgb(144, 188, 173);
-    position: absolute;
-    top:320px;
-    left:700px;
-    
   
   }
   
@@ -215,6 +220,7 @@ nav input:checked~.link{
     text-align: center;
     line-height: 30px;
     margin-top: 30px;
+    background-color: rgb(144, 188, 173);
     
   }
   .sample h2{
@@ -229,10 +235,23 @@ nav input:checked~.link{
     padding:10px 35px;
   
   }
+  form{
+    background-color: rgb(144, 188, 173);
+  }
 
   @media only screen and (min-width:320px) and (max-width:600px){
-    .box{
-      flex-wrap: wrap;
+    .rectangle{
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto;
+      justify-items: center;
+      align-items: center;
+    }
+    .box0{
+      width: 100%;
+    }
+    .firsthalf img{
+      width: 100%;
     }
   }
 
@@ -272,10 +291,18 @@ nav input:checked~.link{
     border:2px solid var(--darkblue);
   }
 
+
+  /*----------------------------------wonderla address------------------------------------*/
+
+  .address-container{
+    width:100%;
+    min-height:500px;
+    padding:150px 30px;
+  }
+
   .address{
     /* padding: 50px 30px; */
     text-align: center;
-    margin-top: 30px;
     line-height: 40px;
   }
   .address span{
@@ -283,23 +310,55 @@ nav input:checked~.link{
     font-weight: bold;
   }
   
-  .address p{
-    font-weight: 600;
-    font-size: 16px;
+  .address p:nth-child(3)
+  {
+    font-weight:bold;
+    font-size: 20px;
   }
+
+  .address p:nth-child(6){
+    font-size:20px;
+  }
+  .address p:nth-child(6)>span
+  {
+    font-size:14px;
+  }
+
+
   
-  .information{
-    text-align: center;
-    margin-top: 30px;
-    line-height: 40px;
-  }
-  .information span{
-    color: rgb(214, 221, 15);
-    font-weight: bold;
-  }
-  .information p{
-    font-weight: 500;
-    font-size: 16px;
+
+
+  /*mobile view*/
+  @media only screen and (min-width:320px) and(max-width:500px){
+    .address-container{
+      width:100%;
+      min-height:500px;
+      padding:20px;
+    }
+  
+    .address{
+      /* padding: 50px 30px; */
+      text-align: center;
+      line-height: 40px;
+    }
+    .address span{
+      color: rgb(214, 221, 15);
+      font-weight: bold;
+    }
+    
+    .address p:nth-child(3)
+    {
+      font-weight:bold;
+      font-size: 16px;
+    }
+  
+    .address p:nth-child(6){
+      font-size:16px;
+    }
+    .address p:nth-child(6)>span
+    {
+      font-size:14px;
+    }
   }
 
   /*-----------------------Footer area----------------------------*/

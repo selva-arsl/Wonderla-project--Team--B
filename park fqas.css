@@ -358,6 +358,17 @@ padding-top: 40px;
         font-size: 20px;
     }
 }
+@media screen and (min-width:320px) and (max-width:500px){
+    .parknavbar ul li{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        grid-template-columns: auto;
+
+    }
+   
+}
 /* footer */
 footer{
     width:100%;
