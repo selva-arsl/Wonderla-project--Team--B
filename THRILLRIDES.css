@@ -205,6 +205,8 @@ nav input:checked~.link {
 
 }
 
+/* THRILL RIDES */
+
 .maincontainer>h1 {
     text-align: center;
     margin-top: 100px;
@@ -242,10 +244,12 @@ nav input:checked~.link {
     margin: 20px;
     margin-top:40px;
     overflow: hidden;
+    
   }
 img{
   width: 400px;
   height: 350px;
+  object-fit: cover;
 }   
 .content{
      height: 70px;
@@ -274,9 +278,10 @@ img{
        } 
    
 .images:hover .content{
-           height: 200px;
+           height: 300px;
+           padding-top:100px;
            bottom:0px;
-           background-color: rgba(0, 0, 0, 0.916);
+           background-color: rgba(51, 49, 49, 0.916);
           } 
           
 .images:hover .details{
@@ -284,6 +289,270 @@ img{
                opacity: 1;
                }               
 
+/* THRILL RIDES RESPONSIVE */
+
+
+
+        /*mobile view*/
+
+
+
+@media only screen and (min-width:300px) and (max-width:639px) {
+
+ /* NAV BAR */
+
+ .navbar {
+
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+    top: 0;
+
+
+}
+
+.navbar a {
+    color: #FFD336;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.maincontainer>h1 {
+    margin-top:10px;
+    padding: 20px 0px;
+    font-size: 22px;
+    
+}
+
+
+.images{
+    position: relative;
+    height: 300px;
+    margin: 10px;
+    margin-top:40px;
+    overflow: hidden;
+    
+  }
+img{
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+}   
+.content{
+     height: 70px;
+     width: 300px;
+     font-size: 18px;
+     
+    }
+  
+   .details{
+
+    width:300px;
+    font-size:14px;
+    padding:20px;
+       
+    }
+     
+  
+.images:hover{
+        cursor: pointer; 
+       } 
+   
+.images:hover .content{
+           height: 300px;
+           padding-top:100px;
+           bottom:0px;
+           background-color: rgba(51, 49, 49, 0.916);
+          } 
+          
+.images:hover .details{
+               visibility: visible;
+               opacity: 1;
+               }               
+
+
+
+
+
+
+}
+
+
+
+        /*TAB view*/
+
+
+
+        @media only screen and (min-width:640px) and (max-width:1000px) {
+
+            /* NAV BAR */
+           
+            .navbar {
+           
+               width: 100%;
+               flex-direction: column;
+               padding: 10px;
+               gap: 5px;
+               top: 0;
+           
+           
+           }
+           
+           .navbar a {
+               color: #FFD336;
+               font-size: 14px;
+               font-weight: bold;
+           }
+           
+           .maincontainer>h1 {
+               margin-top:10px;
+               padding: 20px 0px;
+               font-size: 22px;
+               
+           }
+           
+           
+           .images{
+               position: relative;
+               height: 300px;
+               margin: 10px;
+               margin-top:40px;
+               overflow: hidden;
+               
+             }
+           img{
+             width: 300px;
+             height: 350px;
+             object-fit: cover;
+           }   
+           .content{
+                height: 70px;
+                width: 300px;
+                font-size: 18px;
+                
+               }
+             
+              .details{
+           
+               width:300px;
+               font-size:14px;
+               padding:20px;
+                  
+               }
+                
+             
+           .images:hover{
+                   cursor: pointer; 
+                  } 
+              
+           .images:hover .content{
+                      height: 300px;
+                      padding-top:100px;
+                      bottom:0px;
+                      background-color: rgba(51, 49, 49, 0.916);
+                     } 
+                     
+           .images:hover .details{
+                          visibility: visible;
+                          opacity: 1;
+                          }               
+           
+           
+           
+           
+           
+           
+           }
+           
+
+
+           
+
+        /*LABTOP view*/
+
+
+
+        @media only screen and (min-width:1001px) and (max-width:1550px) {
+
+            /* NAV BAR */
+           
+            .navbar {
+           
+               width: 100%;
+               flex-direction: column;
+               padding: 10px;
+               gap: 5px;
+               top: 0;
+           
+           
+           }
+           
+           .navbar a {
+               color: #FFD336;
+               font-size: 14px;
+               font-weight: bold;
+           }
+           
+           .maincontainer>h1 {
+               margin-top:10px;
+               padding: 20px 0px;
+               font-size: 22px;
+               
+           }
+           
+           
+           .images{
+               position: relative;
+               height: 300px;
+               margin: 10px;
+               margin-top:40px;
+               overflow: hidden;
+               
+             }
+           img{
+             width: 400px;
+             height: 350px;
+             object-fit: cover;
+           }   
+           .content{
+                height: 70px;
+                width: 400px;
+                font-size: 24px;
+                
+               }
+             
+              .details{
+           
+               width:400px;
+               font-size:18px;
+               padding:20px;
+                  
+               }
+                
+             
+           .images:hover{
+                   cursor: pointer; 
+                  } 
+              
+           .images:hover .content{
+                      height: 400px;
+                      padding-top:200px;
+                      bottom:0px;
+                      background-color: rgba(51, 49, 49, 0.916);
+                     } 
+                     
+           .images:hover .details{
+                          visibility: visible;
+                          opacity: 1;
+                          }               
+           
+           
+           
+           
+           
+           
+           }
 
 
 
