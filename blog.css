@@ -181,6 +181,7 @@ nav input:checked~.link{
     height:100%;
     background-color:#143665;
     position:relative;
+    cursor:pointer;
 }
 
 .card1 img,.card2 img,.card3 img,.card4 img,.card5 img,.card6 img,.card7 img,.card8 img,.card9 img,.card10 img,.card11
