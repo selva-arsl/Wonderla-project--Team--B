@@ -1,8 +1,8 @@
-
+/*------------------------Universal selector---------------------------*/
 *{
     margin:0px;
     padding:0px;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 /*------------------------Root css root functions----------------- */
@@ -161,11 +161,6 @@ nav input:checked~.link{
         }
 }
 
-
-/* h1{
-    text-align: center;
-    color:blue;
-} */
 
 /*---------------------------------card-1-----------------------------------------*/
 
