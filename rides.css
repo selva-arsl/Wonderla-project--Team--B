@@ -286,6 +286,13 @@ nav input:checked~.link {
 
 }
 
+.highthrill>div:nth-child(2)>button>a {
+    text-decoration: none;
+    
+    color: #FFD336;
+}
+
+
 .highthrill>div:nth-child(2)>button:hover {
     color: #0A2254;
     background-color: white;
@@ -293,6 +300,15 @@ nav input:checked~.link {
     transition: 1s;
 }
 
+
+.highthrill>div:nth-child(2)>button>a:hover {
+
+    color: #0A2254;
+    
+   
+
+
+}
 
 /* LAND RIDES */
 
@@ -360,6 +376,24 @@ nav input:checked~.link {
     border: 4px solid #0A2254;
     transition: 1s;
 }
+
+.land>div:nth-child(1)>button>a {
+    text-decoration: none;
+    
+    color: #FFD336;
+    
+}
+
+.land>div:nth-child(1)>button>a:hover {
+
+    
+    color: #0A2254;
+    
+
+}
+
+
+
 
 /* WATER RIDES */
 
